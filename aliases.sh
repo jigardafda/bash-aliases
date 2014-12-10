@@ -56,7 +56,7 @@ alias frvr='forever'
 alias frs='forever start'
 alias fst='forever stop'
 alias fsta='forever stopall'
-alais flist='forever list'
+alias flist='forever list'
 
 # MONGO
 alias mstart='sudo mongod --dbpath /data/db'
