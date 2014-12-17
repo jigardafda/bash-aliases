@@ -69,6 +69,7 @@ alias vup='vagrant up'
 alias vhalt='vagrant halt'
 alias vssh='vagrant ssh'
 alias vkill='vagrant destroy'
+alias vkilly='vagrant -f destroy'
 
 # APT-GET
 alias sau='sudo apt-get update'
