@@ -60,3 +60,10 @@ alias flist='forever list'
 
 # MONGO
 alias mstart='sudo mongod --dbpath /data/db'
+
+# VAGRANT
+alias vst='vagrant status'
+alias vup='vagrant up'
+alias vhalt='vagrant halt'
+alias vssh='vagrant ssh'
+alias vkill='vagrant destroy'
