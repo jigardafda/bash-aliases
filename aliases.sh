@@ -9,7 +9,6 @@ alias reload='. ~/.bashrc'
 alias l='ls -lah'
 alias c='clear'
 alias o='open .'
-alias cdb='cd -'
 alias tf='tail -f -n 100'
 alias httpdump='sudo tcpdump -i en0 -n -s 0 -w - | grep -a -o -E "Host\: .*|GET \/.*"'
 
@@ -20,6 +19,7 @@ alias ec='subl . &'
 # NAVIGATION AND LISTING 
 alias '..'='cd ..'
 alias cd..='cd ..'
+alias cdb='cd -'
 alias sl='ls'
 alias ll='ls -la'
 
