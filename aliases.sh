@@ -69,3 +69,8 @@ alias vup='vagrant up'
 alias vhalt='vagrant halt'
 alias vssh='vagrant ssh'
 alias vkill='vagrant destroy'
+
+# APT-GET
+alias sau='sudo apt-get update'
+alias sai='sudo apt-get install'
+alias saiy='sudo apt-get -y install'
