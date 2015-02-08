@@ -75,3 +75,10 @@ alias vkilly='vagrant -f destroy'
 alias sau='sudo apt-get update'
 alias sai='sudo apt-get install'
 alias saiy='sudo apt-get -y install'
+
+# Docker 
+alias drun='sudo docker run'
+alias drund='sudo docker run -d'
+alias dps='sudo docker ps'
+alias dkill='sudo docker kill'
+alias dinfo='sudo docker -D info'
